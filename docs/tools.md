@@ -1,4 +1,10 @@
-[TOC]
+<!-- MarkdownTOC -->
+
+- Tools for efficient scientific research #
+	- Knowledge management
+
+<!-- /MarkdownTOC -->
+
 
 # Tools for efficient scientific research #
 

@@ -135,7 +135,7 @@ $(function($) {
 
   function build_result_matches_html(matches) {
     var html = "";
-    var class_name = ditto.search_results_class.replace(".", "");
+    var class_name = ditto.search_results_class.replace(".", "+");
 
     html += "<ul class='" + class_name + "'>";
     for (var i = 0; i < matches.length; i++) {
