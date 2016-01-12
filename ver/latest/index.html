@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Wei's WIKI</title>  <!-- EDIT ME!! -->
+    <title>TITLE</title>  <!-- EDIT ME!! -->
 
     <!-- JQUERY -->
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -35,9 +35,9 @@
       src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
     </script>
 
-    <!-- DITTO -->
+    <!-- DITTO CSS -->
     <link rel="stylesheet" href="//chutsu.github.io/ditto/ver/latest/ditto.css">
-    <script src="js/ditto.js"></script>
+    <script src="//chutsu.github.io/ditto/ver/latest/ditto.js"></script>
 </head>
 <body>
     <!-- ESSENTIAL -->
@@ -54,17 +54,18 @@
     <!-- DITTO -->
     <script>
         $(function($) {
-          // essential settingsW
+          // essential settings
           ditto.index = "README.md",
           ditto.sidebar_file = "sidebar.md",
 
           // optional settings if you want github search
-          ditto.github_username = "icwx";   // <------- EDIT ME!!
-          ditto.github_repo = "wiki";        // <------- EDIT ME!!
-          ditto.highlight_code = true;       // <------- EDIT ME!!
+          ditto.github_username = null;   // <------- EDIT ME!!
+          ditto.github_repo = null;       // <------- EDIT ME!!
+          ditto.highlight_code = false;    // <------- EDIT ME!!
 
           // where the docs are actually stored on github - so you can edit
-          ditto.base_url = "https://github.com/chutsu/ditto/edit/gh-pages";
+          // e.g. https://github.com/chutsu/ditto/edit/gh-pages
+          ditto.base_url = "";            // <------- EDIT ME!!
 
           // run
           ditto.run();
